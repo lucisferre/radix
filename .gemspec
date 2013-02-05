@@ -46,7 +46,7 @@ Gem::Specification.new do |gemspec|
                  File.basename(path)
                end
 
-  metadata = YAML.load_file('.ruby')
+  metadata = YAML.load_file('.index')
 
   # build-out the gemspec
 
